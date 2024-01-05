@@ -11,7 +11,7 @@ $(PYTEST): | $(PYTHON)
 	$(PIP) install --upgrade pip
 	$(PIP) install pytest
 
-test: hello_world.py | $(PYTEST)
+test: | $(PYTEST)
 	$(PYTEST)
 
 clean:
