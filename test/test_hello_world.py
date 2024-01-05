@@ -1,9 +1,9 @@
 from pytest import CaptureFixture
-import helloworld
+import hello_world
 
 
 def test_prints_hello_world(capsys: CaptureFixture):
-    helloworld.main()
+    hello_world.main()
     captured = capsys.readouterr()
     expected = "Hello, World!"
     assert (
@@ -12,5 +12,5 @@ def test_prints_hello_world(capsys: CaptureFixture):
 
 
 def test_exit_code():
-    code = helloworld.main()
+    code = hello_world.main()
     assert code == 0, f"expected exit code 0 but got {code}"
