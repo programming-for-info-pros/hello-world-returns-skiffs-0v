@@ -8,7 +8,7 @@ def test_prints_hello_world(capsys: CaptureFixture):
     expected = "Hello, World!"
     assert (
         captured.out == f"{expected}\n"
-    ), f"expected {expected} but got {captured.out}"
+    ), f"expected [{expected}] but got [{captured.out}]"
 
 
 def test_exit_code():
