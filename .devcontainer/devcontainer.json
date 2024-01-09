@@ -16,7 +16,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user pytest",
+	"postCreateCommand": "pip3 install --user pytest && sudo apt update && sudo apt -y install bpython",
 
 	// Configure tool-specific properties.
 	"customizations": {
