@@ -28,7 +28,16 @@ then agree to enable workflows.
 
 ![Screenshot showing how to enable acceptance tests](img/enable-workflows.png)
 
-Once you've done that, you should be able to see the current status of
-the tests below.
+Now you can try running the tests manually. Select `acceptance tests`
+in the sidebar on the left, and then click the `Run workflow` button
+on the right (you want the default, from branch `main`).
+
+![Screenshot showing how to run acceptance tests](img/run-tests.png)
+
+The test should fail, since you haven't written any code to make it
+pass yet!
+
+Once you've done the above, you should be able to see the current
+status of the tests below.
 
 ![acceptance tests](../../actions/workflows/run-tests.yml/badge.svg)
