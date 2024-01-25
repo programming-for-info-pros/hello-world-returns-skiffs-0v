@@ -25,4 +25,4 @@ The repository is configured to automatically run acceptance tests
 whenever you push changes. You can see the current status of these
 tests below.
 
-![acceptance tests](actions/workflows/run-tests.yml/badge.svg)
+![acceptance tests](../../actions/workflows/run-tests.yml/badge.svg)
