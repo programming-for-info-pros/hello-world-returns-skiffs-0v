@@ -1,5 +1,5 @@
 name: acceptance tests
-on: [push]
+on: [ push, workflow_dispatch ]
 jobs:
   run-tests:
     runs-on: ubuntu-latest
