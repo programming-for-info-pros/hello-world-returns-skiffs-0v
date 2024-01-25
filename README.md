@@ -21,8 +21,14 @@ above, in the panel that opens, go to the `Codespaces` tab, and click the
 You submit this assignment by pushing the changes you make in your
 codespace back to this repository.
 
-The repository is configured to automatically run acceptance tests
-whenever you push changes. You can see the current status of these
-tests below.
+The repository is set up to automatically run acceptance tests
+whenever you push changes. However, you first need to grant permission
+for them to run. Click the `Actions` tab at the top of the page, and
+then agree to enable workflows.
+
+![Screenshot showing how to enable acceptance tests](img/enable-workflows.png)
+
+Once you've done that, you should be able to see the current status of
+the tests below.
 
 ![acceptance tests](../../actions/workflows/run-tests.yml/badge.svg)
