@@ -22,6 +22,7 @@ You submit this assignment by pushing the changes you make in your
 codespace back to this repository.
 
 The repository is configured to automatically run acceptance tests
-whenever you push changes. Currently, these tests are:
+whenever you push changes. You can see the current status of these
+tests below.
 
 ![acceptance tests](https://github.com/programming-for-info-pros/hello-world/actions/workflows/run-tests.yml/badge.svg)
