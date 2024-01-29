@@ -4,7 +4,7 @@ import sys
 def main() -> int:
     """Write me!"""
     print("Hello, World!")
-    return 0
+    return 1
 
 
 if __name__ == "__main__":
