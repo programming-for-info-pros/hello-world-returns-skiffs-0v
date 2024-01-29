@@ -3,7 +3,8 @@ import sys
 
 def main() -> int:
     """Write me!"""
-    return 1
+    print("Hello, World!")
+    return 0
 
 
 if __name__ == "__main__":
